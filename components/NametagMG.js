@@ -1,4 +1,4 @@
-function NameTagMG({ text }) {
+function NametagMG({ text }) {
   return (
     <div className="nametag green-bg">
       <div className="text-reg-24 black">{text}</div>
@@ -6,4 +6,4 @@ function NameTagMG({ text }) {
   );
 }
 
-export default NameTagMG;
+export default NametagMG;

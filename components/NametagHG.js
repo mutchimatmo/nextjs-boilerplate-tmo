@@ -1,10 +1,10 @@
-function NameTagHR({ text }) {
+function NametagHG({ text }) {
   return (
-    <div className="nametag red-bg">
+    <div className="nametag green-bg">
       <div className="text-reg-24 black name">{text}</div>
       <img src="/img/cancle.svg" />
     </div>
   );
 }
 
-export default NameTagHR;
+export default NametagHG;

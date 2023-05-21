@@ -4,7 +4,7 @@ function Poster() {
       <div className="wrapper-title-poster">
         <div className="text-semi-56">Borsud Christmas</div>
         <div className="wrapper-share">
-          <div className="text-reg-36">tmo26x</div>
+          <div className="text-reg-36 code">tmo26x</div>
           <div className="wrapper-icon">
             <img src="/img/link.svg" />
           </div>
