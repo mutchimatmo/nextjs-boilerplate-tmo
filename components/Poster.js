@@ -34,7 +34,7 @@ function Poster() {
             The poster shows members initials and their chosen colors.
           </div>
           <div id="sc-small-button">
-            <div className="text-semi-24">Save poster</div>
+            <div className="text-semi-24 center">Save poster</div>
           </div>
         </div>
       </div>
