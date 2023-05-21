@@ -1,14 +1,27 @@
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 import Head from "next/head";
+import SecBig from "@/components/SecBig";
+// import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 function Home() {
   return (
     <div>
       <Head>
-        <title>Tech Dsgn Exp</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Nav />
-      <h1 className="text-9xl">Tangmo</h1>
+      <div class="wrapper-home">
+        <img src="/img/name.png" width="70%" />
+        <div class="wrapper-position">
+          <SecBig text="Join group/ See result" link="/M0.Home" />
+          <SecBig text="Host new group" link="/H1.GroupInf" />
+        </div>
+      </div>
+
+      <div class="underline-text28">How to play</div>
     </div>
   );
 }
