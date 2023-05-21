@@ -1,3 +1,182 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #262626;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid navajowhite;
+}
+
+#posterpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 30px;
+
+  border: 8px solid gray;
+}
+
+/* top------------------------------------------------------- */
+#title {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-bottom: 39px;
+
+  /* border: 6px solid blue; */
+}
+
+.group-name {
+  width: 100%;
+  margin-bottom: 11px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+
+  color: white;
+
+  /* border: 3px solid green; */
+}
+
+.share {
+  display: flex;
+  justify-content: flex-start;
+
+  /* border: 3px solid green; */
+}
+
+.code {
+  margin-right: 30px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+
+  color: #ffffff;
+
+  /* border: 2px solid pink; */
+}
+
+.icon-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  /* border: 2px solid pink; */
+}
+
+/* bottom------------------------------------------------------- */
+#group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  /* border: 6px solid blue; */
+}
+
+.group-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  /* border: 3px solid green; */
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-bottom: 23px;
+
+  /* border: 2px solid pink; */
+}
+
+.topic {
+  width: 40%;
+  padding-right: 20px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #ffffff;
+
+  /* border: 1px solid white; */
+}
+
+.detail {
+  width: 60%;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #ffffff;
+
+  /* border: 1px solid white; */
+}
+
+.save {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 45px;
+
+  /* border: 3px solid green; */
+}
+
+.save-description {
+  width: 60%;
+  padding-right: 10px;
+
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+
+  /* border: 2px solid pink; */
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 197px;
+  height: 72px;
+  border-radius: 36px;
+
+  background: #383838;
+
+  /* border: 2px solid pink; */
+}
+
+.save-poster {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #ffffff;
+
+  /* border: 1px solid white; */
+}
