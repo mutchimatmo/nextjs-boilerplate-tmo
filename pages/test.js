@@ -18,11 +18,13 @@ function Home() {
         />
       </Head>
       <Nav />
-      <Poster />
+      {/* <Poster />
       <NametagHG text="Tangmo" />
       <NametagMG text="Tangmo" />
       <NametagHR text="Rin" />
-      <NametagMR text="Sae" />
+      <NametagMR text="Sae" /> */}
+
+      {/* ------ */}
 
       <div className="wrapper-randompart">
         <div className="wrapper-random">
@@ -36,20 +38,88 @@ function Home() {
           <div className="text-reg-36">25 Participants</div>
           <div className="wrapper-nametag">
             <a>
-              <NametagHG text="Tangmo" />
+              <NametagHG text="Tom" />
             </a>
             <a>
-              <NametagMG text="Tangmo" />
+              <NametagHR text="Mary" />
             </a>
             <a>
-              <NametagHG text="Tangmo" />
+              <NametagHR text="John" />
             </a>
             <a>
-              <NametagMG text="Tangmo" />
+              <NametagHG text="Alice" />
+            </a>
+            <a>
+              <NametagHR text="Violet" />
+            </a>
+            <a>
+              <NametagHG text="Iris" />
+            </a>
+            <a>
+              <NametagHG text="Daphne" />
+            </a>
+            <a>
+              <NametagHG text="Felix" />
+            </a>
+
+            <a>
+              <NametagHR text="Hugo" />
+            </a>
+            <a>
+              <NametagHR text="Phillip" />
+            </a>
+            <a>
+              <NametagHG text="Olivia" />
+            </a>
+            <a>
+              <NametagHR text="Arlo" />
+            </a>
+            <a>
+              <NametagHR text="Luna" />
+            </a>
+            <a>
+              <NametagHG text="Remin.." />
+            </a>
+            <a>
+              <NametagHR text="Eren" />
+            </a>
+            <a>
+              <NametagHR text="Jack" />
+            </a>
+
+            <a>
+              <NametagHG text="Penolo.." />
+            </a>
+            <a>
+              <NametagHR text="Kai" />
+            </a>
+            <a>
+              <NametagHG text="Emily" />
+            </a>
+            <a>
+              <NametagHG text="Lucas" />
+            </a>
+            <a>
+              <NametagHR text="Harlow" />
+            </a>
+            <a>
+              <NametagHG text="Beau" />
+            </a>
+            <a>
+              <NametagHG text="Garnet" />
+            </a>
+            <a>
+              <NametagHR text="Parker" />
+            </a>
+
+            <a>
+              <NametagHR text="Sophia" />
             </a>
           </div>
         </div>
       </div>
+
+      {/* ------- */}
     </div>
   );
 }
