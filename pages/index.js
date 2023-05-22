@@ -1,7 +1,6 @@
 import Nav from "../components/Nav";
 import Head from "next/head";
 import SecBig from "@/components/SecBig";
-// import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 function Home() {
   return (
