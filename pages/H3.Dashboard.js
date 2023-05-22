@@ -22,7 +22,7 @@ function DashboardH() {
         <div className="wrapper-randompart">
           <div className="wrapper-random">
             <div className="text-reg-20 random">
-              Press it to assign buddies to each participant
+              Press it to assign buddies to each participant.
             </div>
             <PriSmall28 text="Random" link="/H4.BuddyInf" />
           </div>

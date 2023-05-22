@@ -21,10 +21,7 @@ function Home() {
         <div className="line"></div>
         <div className="wrapper-randompart">
           <div className="wrapper-random">
-            <div className="text-reg-20 random">
-              Press it to assign buddies to each participant
-            </div>
-            <PriSmall28 text="Random" link="/H4.BuddyInf" />
+            <div className="text-reg-20 random">Wait for your buddy.</div>
           </div>
 
           <div className="wrapper-participant">
