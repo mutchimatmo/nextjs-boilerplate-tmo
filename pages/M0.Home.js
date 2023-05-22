@@ -15,10 +15,10 @@ function HomeM() {
         />
       </Head>
       <Nav />
-      <div class="wrapper-home">
+      <div className="wrapper-home">
         <img src="/img/name.png" width="70%" />
-        <div class="wrapper-position-input">
-          <div class="wrapper-position margin-rlb--20 ">
+        <div className="position-input">
+          <div className="position margin-rlb--20 ">
             <PriBig text="Join group/ See result" link="/M1.GroupInf" />
             <SecBig text="Host new group" link="/H1.GroupInf" />
           </div>
@@ -26,7 +26,7 @@ function HomeM() {
         </div>
       </div>
 
-      <div class="underline-text28">How to play</div>
+      <div className="underline-text28">How to play</div>
     </div>
   );
 }

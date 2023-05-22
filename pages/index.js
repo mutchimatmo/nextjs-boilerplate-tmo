@@ -12,15 +12,15 @@ function Home() {
         />
       </Head>
       <Nav />
-      <div class="wrapper-home">
+      <div className="wrapper-home">
         <img src="/img/name.png" width="70%" />
-        <div class="wrapper-position">
+        <div className="position">
           <SecBig text="Join group/ See result" link="/M0.Home" />
           <SecBig text="Host new group" link="/H1.GroupInf" />
         </div>
       </div>
 
-      <div class="underline-text28">How to play</div>
+      <div className="underline-text28">How to play</div>
     </div>
   );
 }

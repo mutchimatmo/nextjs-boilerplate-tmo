@@ -14,13 +14,13 @@ function BuddyInform() {
         />
       </Head>
       <Nav />
-      <div class="wrapper">
-        <div class="wrapper-title-inform">
-          <div class="text-semi-28 green">Your buddy</div>
-          <div class="text-semi-68 green">Borsud Chirstmas</div>
+      <div className="wrapper">
+        <div className="title-inform">
+          <div className="text-semi-28 green">Your buddy</div>
+          <div className="text-semi-68 green">Borsud Chirstmas</div>
         </div>
 
-        <div class="wrapper-inform">
+        <div class="inform">
           <FilledBig title="Name" text="Daphne" />
           <FilledBig
             title="Favorite items / Wishlist"
@@ -33,7 +33,7 @@ function BuddyInform() {
         </div>
       </div>
 
-      <div class="wrapper-button-finish">
+      <div className="wrapper-button-finish">
         <SecSmall24 text="Save picture" />
         <PriBig text="Back to home" link="/" />
       </div>

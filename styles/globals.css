@@ -212,30 +212,6 @@ body {
 
 /* ---------------------------------------------------------------------------------------------- */
 /* Wrapper */
-
-.wrapper-position {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-
-  margin-top: 40px;
-
-  /* border: 1px solid aqua; */
-}
-
-.wrapper-position-input {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-
-  padding-right: 20px;
-  padding-left: 20px;
-
-  /* border: 1px solid red; */
-}
-
 .wrapper-home {
   position: absolute;
   top: calc(50% - 208px / 2);
@@ -248,7 +224,42 @@ body {
   /* border: 1px solid red; */
 }
 
-.wrapper-inform-small {
+.wrapper-home .position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-top: 40px;
+
+  /* border: 1px solid aqua; */
+}
+
+.wrapper-home .position-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-right: 20px;
+  padding-left: 20px;
+
+  /* border: 1px solid red; */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 60px;
+  margin-bottom: 70px;
+  width: 100%;
+
+  /* border: 1px solid yellow;  */
+}
+
+.wrapper .inform-small {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -259,7 +270,7 @@ body {
   /* border: 1px solid red; */
 }
 
-.wrapper-inform {
+.wrapper .inform {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -272,7 +283,7 @@ body {
   /* border: 1px solid red; */
 }
 
-.wrapper-title-inform {
+.wrapper .title-inform {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -284,7 +295,7 @@ body {
   /* border: 1px solid pink; */
 }
 
-.wrapper-ask-detail {
+.wrapper .ask-detail {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -298,7 +309,7 @@ body {
   /* border: 1px solid pink; */
 }
 
-.wrapper-detail {
+.wrapper .detail {
   display: flex;
   flex-direction: column;
 
@@ -307,7 +318,7 @@ body {
   /* border: 1px solid pink; */
 }
 
-.wrapper-ask-color {
+.wrapper .ask-color {
   display: flex;
   flex-direction: column;
 
@@ -318,7 +329,7 @@ body {
   /* border: 1px solid pink; */
 }
 
-.wrapper-color {
+.wrapper .color {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -354,18 +365,6 @@ body {
   padding-bottom: 20px;
 
   /* border: 1px solid pink; */
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin-top: 60px;
-  margin-bottom: 70px;
-  width: 100%;
-
-  /* border: 1px solid yellow;  */
 }
 
 .wrapper-random {

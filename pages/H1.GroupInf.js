@@ -15,15 +15,15 @@ function GroupInformH() {
         />
       </Head>
       <Nav />
-      <div class="wrapper">
-        <div class="wrapper-title-inform">
-          <div class="text-semi-68">Group information</div>
+      <div className="wrapper">
+        <div className="title-inform">
+          <div className="text-semi-68">Group information</div>
         </div>
 
-        <div class="wrapper-inform">
+        <div className="inform">
           <FilledBig title="Group name" text="Borsud Chirstmas" />
 
-          <div class="wrapper-inform-small">
+          <div className="inform-small">
             <FilledSmall
               title="Start date"
               text="10 May 2050"
@@ -35,14 +35,14 @@ function GroupInformH() {
               icon="/img/calendar.svg"
             />
           </div>
-          <div class="wrapper-inform-small">
+          <div className="inform-small">
             <FilledSmall title="Budget for a gift" text="800 - 1,000" />
             <FilledSmall title="Currency" text="THB" icon="/img/arrow.svg" />
           </div>
 
-          <div class="wrapper-detail">
-            <div class="wrapper-ask-detail bottom-20">
-              <div class="text-reg-16">Any more your details ?</div>
+          <div className="detail">
+            <div className="ask-detail bottom-20">
+              <div className="text-reg-16">Any more your details ?</div>
               <img src="/img/switchOn.svg" width="20%" />
             </div>
             <FilledBig title="Detail" text="Sea theme" />
@@ -50,7 +50,7 @@ function GroupInformH() {
         </div>
       </div>
 
-      <div class="wrapper-button-process">
+      <div className="wrapper-button-process">
         <SecSmall28 text="Back" link="/" />
         <PriSmall28 text="Next" link="/H2.YourInf" />
       </div>
